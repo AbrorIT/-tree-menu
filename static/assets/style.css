@@ -1,0 +1,12 @@
+.menu_item {
+    padding-left: 1.2em;
+    }
+    .categories-menu .menu-inner {
+        border: 9px solid #e1e1e1;
+        padding: 0;
+        background: #fff;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        padding-top: 1.5rem;
+        display: none;
+    }
