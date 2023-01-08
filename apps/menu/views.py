@@ -2,6 +2,7 @@ from django.shortcuts import render
 from apps.settings.models import Setting
 from apps.menu.models import Menus
 
+
 # Create your views here.
 
 def menus(request, id):
@@ -12,3 +13,6 @@ def menus(request, id):
         'menu' : menu,
     }
     return render(request, 'menu.html', context)
+
+
+
