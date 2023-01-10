@@ -3,6 +3,6 @@ from apps.menu.views import menus
 
 
 urlpatterns = [
-    path('<int:id>/', menus, name = "menus"),
+    path('', menus, name = "menus"),
 ]
 
