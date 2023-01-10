@@ -1,15 +1,20 @@
 
-{% load menu_extras %}
-<a href="{{ menus_url }}">{{ menus.name }}</a>
-{% if menu %}
-<details {% if menu_item.id in unwrapped_menu_item_ids %} open {% endif %}>
-    <summary>
+{% load static %}  
+{% block content %}
 
-    </summary>
-    {% for menus in menu %}
-    <div class="menu_item">
-        {% draw_menu_item_children child.id %}
-    </div>
-    {% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+    
+    
 </details>
-{% endif %}
+{% endblock %}

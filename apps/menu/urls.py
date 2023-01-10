@@ -1,12 +1,8 @@
-from django.urls import path,include
+from django.urls import path
 from apps.menu.views import menus
 
 
-app_name = 'menu'
 urlpatterns = [
-    path('', menus, name = "menu"),
-    
-    
-   
+    path('<int:id>/', menus, name = "menus"),
 ]
 
