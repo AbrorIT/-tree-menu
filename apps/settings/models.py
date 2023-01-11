@@ -9,7 +9,7 @@ class Setting(models.Model):
     def __str__(self):
         return self.title
 
-    # class Meta:
-    #     verbsoe_name = "Настройка"
-    #     verbsoe_name_plural = "Настройки"
+    class Meta:
+        verbose_name = "Настройка"
+        verbose_name_plural = "Настройки"
 
